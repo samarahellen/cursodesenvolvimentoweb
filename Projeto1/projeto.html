@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html>
+	<head> 
+		<title> <!--Define o nome que "aparece" na pagina-->
+			CHELSEA
+		</title>
+		<!--Para nao dar problema com acentos-->
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!--Formataçao de texto-->
+		<h1>Os títulos do HTML tem do h1 até o h6.</h1>
+		<h2>Os títulos do HTML tem do h1 até o h6.</h2>
+		<h3>Os títulos do HTML tem do h1 até o h6.</h3>
+		<h4>Os títulos do HTML tem do h1 até o h6.</h4>
+		<h5>Os títulos do HTML tem do h1 até o h6.</h5>
+		<h6>Os títulos do HTML tem do h1 até o h6.</h6>
+		<hr>
+		<p>
+		<strong>Para negrito usa strong.<br></strong>
+		<em>Para italico usa em </em> <br>
+		<u>Para underline usa u </u><br>
+		<strike>Para texto riscado usa o strike </strike><br>
+		</p>
+		<hr>
+		<p>Novo paragrafo usa o p
+		</p>
+		<!--Listas-->
+			<ul>
+				<h3> Lista nao ordenada ul </h3>
+				<!--type="circle" deixa a bolinha branca por dentro square deixa quadrado e disc o original -->
+				<li>Pontinho de lista</li>
+			</ul>
+			<!-- Lista ordenada-->
+			<ol>
+				<!--type=="A" ou a mostra A B C type 1 mostra numero por numero e I mostra numeros romanos -->
+				<li>um</li>
+				<li>dois</li>
+			</ol>
+		<!--Adicionando imagem-->
+		<img src="imagens/chelsea.png" height="50" width="50">
+		<!--Adicionando link-->
+		<a href="historia.html"> Historia </a>
+		<!--Criando tabela-->
+		<table border="2" width="200"><!--Criando tabela com borda de tamanho 2 e largura 500-->
+			<tr>
+				<th>tabela criada</th><!--Colocando o cabeçalho da tabela -->
+				<td rowspan="2">tabela criada</td><!--Mescla duas linhas -->
+			</tr>
+			<tr>
+				<td>tabela criada</td>
+				<td>tabela criada</td>
+				<td colspan="2">tabela criada</td><!--Mescla duas colunas -->
+			</tr>
+		</table>
+		<!--Como fazer um formulario -->
+		<form><!--Definindo o formulario -->
+			Login: <br>
+			<input type="text" name="login"><br><!--Input: entrada de dados/ type: que tipo de caixa será/ name: nome -->
+			<input type="password" name="senha"><br> <!--Nesse caso, o password será para nao exibir a palavra -->
+			<input type="submit" value="logar"><br><!--Para o botão, não utiliza o name e sim o value -->
+			<br>
+			Sexo: <br>
+			<input type="radio" name="sexo" value="M"> Masculino<!--radio é um tipo de seleçao, para que seja possivel selencionar só --> <br>
+			<input type="radio" name="sexo" value="F"> Feminino<!--uma opção, é necessário colocar os nomes iguais -->
+			<!--Para que nao de problema na hora de passar o formulario, é necessario colocar valores diferentes -->
+			<br>
+			Interesses:<br>
+			<input type="checkbox" name="Futebol">Futebol<!--O type checkbox é utilizado quando é possivel selencionar + de 1 opçao --><br>
+			<input type="checkbox" name="Volei">Volei
+			<br>
+			Estado:<br>
+			<select name="Estado:"><!--Caixa de Seleção -->
+				<option value="SP"> SP</option>
+				<option value="MG"> MG</option>
+			</select> <br>
+			Observações: <br>
+			<textarea></textarea>
+			<br>
+			<input type="submit" name="cadastre-se">
+		</form>
+	</body>
+</html>
+<!--https://www.w3schools.com/html/html_entities.asp-->
