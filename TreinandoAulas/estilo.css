@@ -1,1 +1,22 @@
+/*
+modelo de caixa
+*/
+.conteudo{
+	border: 1px solid red;
+	/*
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+	
+	/*padding: 20px 15px 10px 5px; faz a mesma coisa na mesma ordem*/
+	padding: 20px; /*deixa todos os lados com 20px*/
+	/*padding: 20px 5px; deixa os lados 20x5*/
+	width: 150px;
 
+	/*margin funciona de forma parecida aos exeplos dados do padding */
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
