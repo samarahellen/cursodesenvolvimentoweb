@@ -1,0 +1,1 @@
+Este repositório foi criado para armazenar os arquivos e projetos desenvolvidos ao longo do curso "Domine Web - 20 Cursos" oferecido pela Udemy. O curso abrange uma ampla gama de tópicos essenciais para o desenvolvimento de interfaces web, incluindo HTML5, CSS3, SASS, Bootstrap, JavaScript, ES6, PHP, Orientação a Objetos, MySQL, JQuery, MVC, APIs, IONIC e muito mais.
